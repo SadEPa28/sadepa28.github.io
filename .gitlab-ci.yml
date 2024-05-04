@@ -5,7 +5,6 @@ cache:
     - node_modules/
 
 before_script:
-  - npm install hexo-cli -g
   - test -e package.json && npm install
   - hexo generate
 
