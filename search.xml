@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>关于我</title>
+    <url>/p/1980/02/01/about/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>归档</title>
+    <url>/p/1980/02/01/archives/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/p/2024/02/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>喂胶囊1.1.3-pre1</title>
+    <url>/p/2024/04/07/1-1-3-pre1/</url>
+    <content><![CDATA[<blockquote>
+<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><p>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup><br>请帮助我们扩充或改进它。</p>
+</blockquote>
+<p><strong>1.1.3-pre1</strong>是喂胶囊1.1.3的首个预发布版，发布于2024年4月1日，增加了两个结局，更改了游戏机制、背景颜色、游戏图标和启动画面。<br>下载地址：<a href="https://pan.huang1111.cn/s/BE36F6">https://pan.huang1111.cn/s/BE36F6</a><br><img src="/p/2024/04/07/1-1-3-pre1/images/feeding-capsule.png"><br><img src="/p/2024/04/07/1-1-3-pre1/images/start.png"></p>
+<h2 id="新内容"><a href="#新内容" class="headerlink" title="新内容"></a>新内容</h2><hr>
+<h3 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h3><h4 id="结局1：豫章书院-1"><a href="#结局1：豫章书院-1" class="headerlink" title="结局1：豫章书院[1]"></a>结局1：豫章书院<span id="[1]up"><sup><a href="#%5B1%5Ddown">[1]</a></sup></span></h4><ul>
+<li>当喂食次数达到45时将会出现两个面板，诱导你修正<span id="[2]up"><sup><a href="#%5B2%5Ddown">[2]</a></sup></span>胶囊，如果你点击右侧面板中的修正按钮将会经过<strong>转场</strong>并触发<strong>豫章书院</strong>结局并播放yuzhang_school.wav。</li>
+</ul>
+<p>yuzhang_school.wav</p>
+<audio controls>
+  <source src="./audios/yuzhang_school.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p><img src="/p/2024/04/07/1-1-3-pre1/images/panels.png" alt="诱导面板"><br><img src="/p/2024/04/07/1-1-3-pre1/images/ending1.png" alt="豫章书院结局"></p>
+<h4 id="结局2：我是为你好"><a href="#结局2：我是为你好" class="headerlink" title="结局2：我是为你好"></a>结局2：我是为你好</h4><ul>
+<li>当玩家无视诱导面板持续喂食到60次时将会触发<strong>我是为你好</strong>结局并播放以下音频的其中之一。</li>
+</ul>
+<p>carck0.wav</p>
+<audio controls>
+  <source src="./audios/crack_0.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks1.wav</p>
+<audio controls>
+  <source src="./audios/cracks_1.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks2.wav</p>
+<audio controls>
+  <source src="./audios/cracks_2.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks3.wav</p>
+<audio controls>
+  <source src="./audios/cracks_3.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks4.wav</p>
+<audio controls>
+  <source src="./audios/cracks_4.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p><img src="/p/2024/04/07/1-1-3-pre1/images/ending2.png" alt="我是为你好结局"></p>
+<h3 id="游戏机制"><a href="#游戏机制" class="headerlink" title="游戏机制"></a>游戏机制</h3><h4 id="胶囊破裂"><a href="#胶囊破裂" class="headerlink" title="胶囊破裂"></a>胶囊破裂</h4><ul>
+<li>当喂食次数达到40次时，胶囊将会破裂并播放carcking.wav，且后面的喂食速度会从0.005降低到0.002。</li>
+</ul>
+<p>carcking.wav</p>
+<audio controls>
+  <source src="./audios/cracking.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<h4 id="转场"><a href="#转场" class="headerlink" title="转场"></a>转场</h4><span id="ce1-up">
+
+<ul>
+<li>转场出现时会经过淡出，同时等待4589<sup><a href="#ce1-down">↓</a></sup>毫秒后会淡入，它经常会出现在<strong>结局</strong>触发时。</span></li>
+</ul>
+<p><img src="/p/2024/04/07/1-1-3-pre1/images/carcking.png" alt="胶囊开裂"></p>
+<h3 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h3><span id="ce1-down">
+
+<ul>
+<li><p><sup><a href="#ce1-up">↑</a></sup><strong>转场</strong>的持续时间为4589毫秒，1945年8月9日是全世界最热的一天，当天日本广岛上午11:02时的气温高达6000℃。</p>
+</span>
+</li>
+<li><p><strong>转场</strong>的图层优先级是1945，当时日本投降。</p>
+</li>
+</ul>
+<h2 id="更改"><a href="#更改" class="headerlink" title="更改"></a>更改</h2><hr>
+<h3 id="游戏图标"><a href="#游戏图标" class="headerlink" title="游戏图标"></a>游戏图标</h3><ul>
+<li>图标由原来的Unity logo改为胶囊。</li>
+</ul>
+<p><img src="/p/2024/04/07/1-1-3-pre1/images/unity-logo.png" alt="Unity logo（旧）"><br><img src="/p/2024/04/07/1-1-3-pre1/images/capsule.png" alt="胶囊（新）"></p>
+<p><em>如果你看不见新图标是正常的，因为新图标是白色的，网页背景也是白色的，所以看不见。&#x3D;)</em></p>
+<h3 id="启动画面"><a href="#启动画面" class="headerlink" title="启动画面"></a>启动画面</h3><p><img src="/p/2024/04/07/1-1-3-pre1/images/legacy-starting.gif" alt="旧启动画面"><br><img src="/p/2024/04/07/1-1-3-pre1/images/new-starting.gif" alt="新启动画面"></p>
+<p><em>此处可能会有闪烁，原因很简单，俺也不到啊。O.O</em><br><em>gif动图的质量太差了，请见谅。（这句是AI生成的，请不要当真（生成的，请不要当真是AI生成的，请不要当真6，搁这儿套娃啊（儿是AI生成的）））</em></p>
+<h3 id="背景颜色"><a href="#背景颜色" class="headerlink" title="背景颜色"></a>背景颜色</h3><ul>
+<li>背景颜色由原来的蓝色改为黑色。</li>
+</ul>
+<p><img src="/p/2024/04/07/1-1-3-pre1/images/blue.png" alt="蓝色（旧）"><br><img src="/p/2024/04/07/1-1-3-pre1/images/black.png" alt="黑色（新）"></p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><span id="[1]down">1. <sup><a href="#%5B1%5Dup">↑</a></sup> <a href="https://zh.wikipedia.org/wiki/%E8%B1%AB%E7%AB%A0%E4%B9%A6%E9%99%A2%E4%BF%AE%E8%BA%AB%E6%95%99%E8%82%B2%E4%B8%93%E4%BF%AE%E5%AD%A6%E6%A0%A1">豫章书院修身教育专修学校</a></span></p>
+<p><span id="[2]down">1. <a href="#%5B2%5Dup">↑</a> 修正在代码中使用的ID是Amend，意为： 修改，修订；纠正，改正；改善（土壤）的结构（或肥力）；&lt;古&gt;修复；改过自新</span></p>
+<p><span id="end"></span></p>
+]]></content>
+      <tags>
+        <tag>喂胶囊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小天才动态效验码生成器</title>
+    <url>/p/2024/04/29/%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%8A%A8%E6%80%81%E6%95%88%E9%AA%8C%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>小天才动态效验码生成器</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="generator" id="leftGenerator">
+        <h2>ADB调试开关动态效验码</h2>
+        <label for="leftInput1"></label><input type="text" id="leftInput1" placeholder="输入">
+        <label for="leftInput2"></label><input type="text" id="leftInput2" placeholder="输出">
+        <button onclick="generateLeftCode()">生成</button>
+    </div>
+    <div class="generator" id="rightGenerator">
+        <h2>自检模式动态效验码</h2>
+        <label for="rightInput1"></label><input type="text" id="rightInput1" placeholder="输入">
+        <label for="rightInput2"></label><input type="text" id="rightInput2" placeholder="输出">
+        <button onclick="generateRightCode()">生成</button>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
+]]></content>
+      <tags>
+        <tag>小天才破解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/p/1980/02/01/categories/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>友链</title>
+    <url>/p/1980/02/01/friends/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/p/1980/02/01/tags/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
