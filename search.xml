@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>关于我</title>
+    <url>/p/1980/02/01/about/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>归档</title>
+    <url>/p/1980/02/01/archives/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>友链</title>
+    <url>/p/1980/02/01/friends/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/p/1980/02/01/categories/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/p/2024/02/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>云·喂胶囊</title>
+    <url>/p/2024/05/13/%E4%BA%91%C2%B7%E5%96%82%E8%83%B6%E5%9B%8A/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity Web Player | FeedingCapsule</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-logo-title-footer"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">FeedingCapsule</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<p><em>最后编辑：2024年5月14日 | 10点46分</em></p>
+]]></content>
+      <tags>
+        <tag>云游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/p/1980/02/01/tags/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>喂胶囊1.1-rc1</title>
+    <url>/p/2024/05/11/%E5%96%82%E8%83%B6%E5%9B%8A1-1-rc1/</url>
+    <content><![CDATA[<blockquote>
+<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><p>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup><br>请帮助我们扩充或改进它。</p>
+</blockquote>
+<p><strong>1.1-rc1</strong>是喂胶囊1.1的首个发布候选版本，发布于2024年5月13日，增加了一个结局，更改了游戏机制、启动画面。<br><a href="https://huang3333.sharepoint.com/sites/hk14/_layouts/15/download.aspx?UniqueId=6099d428-af0d-4df4-ace6-4f603400c94b&Translate=false&tempauth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfZGlzcGxheW5hbWUiOiJjbG91ZHJldmUiLCJhcHBpZCI6ImU1ZTkwYTE4LWFmOGItNDllZi05OTY0LTgxOGM2MjM4MTE2MCIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9odWFuZzMzMzMuc2hhcmVwb2ludC5jb21AYjdiZmZlNjAtNWIwMC00ZDllLTgzOGQtYzk2YjQ1ZTgyYjE4IiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDIyMGYwOGM3MkBsaXZlLmNvbSIsImNpZCI6IlZ0U09PbmVHbzBxandVaWJsNlVSNHc9PSIsImVuZHBvaW50dXJsIjoiYmx0L29tMVJ1QmVGSUd1YlIxWnZEY2QvSFZDRFJMakd5Y2tVcWE1SDFqYz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEzMSIsImV4cCI6IjE3MTYyOTAyNDUiLCJpcGFkZHIiOiIyMC4xOTAuMTQ0LjE2OSIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTcxNjI4NjY0NSIsInB1aWQiOiIxMDAzMjAwMjIwRjA4QzcyIiwic2NwIjoiYWxsZmlsZXMud3JpdGUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwic2l0ZWlkIjoiWm1NNFpHSTRZell0T0RRMVppMDBOMlJsTFRneU5qUXRaV1V6WXpFd09XUmtaVGcyIiwidGlkIjoiYjdiZmZlNjAtNWIwMC00ZDllLTgzOGQtYzk2YjQ1ZTgyYjE4IiwidHQiOiIyIiwidXBuIjoiaGsxQGh1YW5nMzMzMy5vbm1pY3Jvc29mdC5jb20iLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.7vyZ38QrQyT6F957-0pZEPOanlRJe7ohxvk8_Hxfvdo&ApiVersion=2.0">点此下载多系统版本</a><br><img src="/p/2024/05/11/%E5%96%82%E8%83%B6%E5%9B%8A1-1-rc1/images/knife.png"></p>
+<h2 id="新内容"><a href="#新内容" class="headerlink" title="新内容"></a>新内容</h2><hr>
+<h3 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h3><table>
+<thead>
+<tr>
+<th>结局号</th>
+<th>结局</th>
+<th>结局音效</th>
+<th>上游结局</th>
+<th>下游结局</th>
+<th>触发需求</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3</td>
+<td>杀了我吧</td>
+<td>kill_me.wav</td>
+<td>我是为你好</td>
+<td>-</td>
+<td>在胶囊拒绝的情况下喂食四次，点击出现的小刀</td>
+</tr>
+</tbody></table>
+<p>kill_me.wav</p>
+<audio controls>
+  <source src="./audios/kill_me.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<h2 id="道具"><a href="#道具" class="headerlink" title="道具"></a>道具</h2><h3 id="小刀"><a href="#小刀" class="headerlink" title="小刀"></a>小刀</h3><ul>
+<li>在胶囊拒绝的情况下继续喂食四次，会在右下方出现一把小刀，出现和点击时会播放stab.wav，点击会触发结局3。</li>
+</ul>
+<p><img src="/p/2024/05/11/%E5%96%82%E8%83%B6%E5%9B%8A1-1-rc1/images/knife.png" alt="小刀"></p>
+<p>stab.wav</p>
+<audio controls>
+  <source src="./audios/stab.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<h2 id="游戏机制"><a href="#游戏机制" class="headerlink" title="游戏机制"></a>游戏机制</h2><ul>
+<li>在通过点击粉末喂食的同时，现在也可以通过按下键盘上的任意键来喂食，并且由于这个新机制，粉末右侧的提示也会更改。</li>
+<li>在触发过结局2后，在喂食到59次后胶囊会拒绝喂食，会播放no.wav，在胶囊拒绝的情况下继续喂食四次，会出现一把小刀，点击小刀会触发结局3。</li>
+</ul>
+<p>no.wav</p>
+<audio controls>
+  <source src="./audios/no.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<h3 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h3><ul>
+<li><strong>小刀</strong>的Collider 2D组件的优先级是1945。</li>
+<li><strong>小刀</strong>的AudioSource组件的优先级是54。</li>
+</ul>
+<h2 id="更改"><a href="#更改" class="headerlink" title="更改"></a>更改</h2><hr>
+<h3 id="启动画面"><a href="#启动画面" class="headerlink" title="启动画面"></a>启动画面</h3><p><img src="/" alt="旧启动画面中的SadEPa Logo"><br><em>抱歉，问题与你无关，在我的电脑上文件已丢失，所以留空</em></p>
+<p><img src="/p/2024/05/11/%E5%96%82%E8%83%B6%E5%9B%8A1-1-rc1/images/new-sadepa-logo.png" alt="新启动画面中的SadEPa Logo"></p>
+<h3 id="文件命名更改"><a href="#文件命名更改" class="headerlink" title="文件命名更改"></a>文件命名更改</h3><ul>
+<li>yuzhang_school.wav 改为 yuzhang_academy.wav</li>
+<li>crack_num.wav 统一为 crack_num.wav</li>
+</ul>
+<h3 id="音效更改"><a href="#音效更改" class="headerlink" title="音效更改"></a>音效更改</h3><ul>
+<li>crack_0-4.wav 更改为</li>
+</ul>
+<p>crack_0.wav</p>
+<audio controls>
+  <source src="./audios/crack_0.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>crack_1.wav</p>
+<audio controls>
+  <source src="./audios/crack_1.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>crack_2.wav</p>
+<audio controls>
+  <source src="./audios/crack_2.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>crack_3.wav</p>
+<audio controls>
+  <source src="./audios/crack_3.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p><span id="end"></span></p>
+<p><em>最后编辑：日期 | 18点25分</em></p>
+]]></content>
+      <tags>
+        <tag>喂胶囊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>喂胶囊1.1-pre1</title>
+    <url>/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/</url>
+    <content><![CDATA[<blockquote>
+<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><p>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup><br>请帮助我们扩充或改进它。</p>
+</blockquote>
+<p><strong>1.1-pre1</strong>是喂胶囊1.1的唯一一个预发布版，发布于2024年4月1日，增加了两个结局，更改了游戏机制、背景颜色、游戏图标和启动画面。<br><a href="https://huang3333.sharepoint.com/sites/hk13/_layouts/15/download.aspx?UniqueId=d8c39410-833c-4cad-92a9-39feeed71bfe&Translate=false&tempauth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfZGlzcGxheW5hbWUiOiJjbG91ZHJldmUiLCJhcHBpZCI6ImU1ZTkwYTE4LWFmOGItNDllZi05OTY0LTgxOGM2MjM4MTE2MCIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9odWFuZzMzMzMuc2hhcmVwb2ludC5jb21AYjdiZmZlNjAtNWIwMC00ZDllLTgzOGQtYzk2YjQ1ZTgyYjE4IiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDIyMGYwOGM3MkBsaXZlLmNvbSIsImNpZCI6InNaenN6akRkblV5c09WTzM4V1duSmc9PSIsImVuZHBvaW50dXJsIjoiV3lWL2MwaGdKZU10V05XNDFWRGpkazBIVENGbGF5MDZoVldYYzRoTkNWUT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEzMSIsImV4cCI6IjE3MTYyOTA0MzQiLCJpcGFkZHIiOiIyMC4xOTAuMTQ0LjE2OSIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTcxNjI4NjgzNCIsInB1aWQiOiIxMDAzMjAwMjIwRjA4QzcyIiwic2NwIjoiYWxsZmlsZXMud3JpdGUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwic2l0ZWlkIjoiTVRreE1HSmxORGN0Tmpoa015MDBOMkl4TFdJNU5ETXRPV1JsWXpVeFkySTRZV0poIiwidGlkIjoiYjdiZmZlNjAtNWIwMC00ZDllLTgzOGQtYzk2YjQ1ZTgyYjE4IiwidHQiOiIyIiwidXBuIjoiaGsxQGh1YW5nMzMzMy5vbm1pY3Jvc29mdC5jb20iLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.JLbobpSWNwpmdXzocsvMNu2ljEGD8POwzpy0UQOCAA4&ApiVersion=2.0">点此下载多系统版本</a><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/feeding-capsule.png"><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/start.png"></p>
+<h2 id="新内容"><a href="#新内容" class="headerlink" title="新内容"></a>新内容</h2><hr>
+<h3 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h3><table>
+<thead>
+<tr>
+<th>结局号</th>
+<th>结局</th>
+<th>结局音效</th>
+<th>上游结局</th>
+<th>下游结局</th>
+<th>触发需求</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>豫章书院<span id="[1]up"><sup><a href="#%5B1%5Ddown">[1]</a></sup></span></td>
+<td>yuzhang_school.wav</td>
+<td>-</td>
+<td>我是为你好</td>
+<td>点击诱导面板中的修正<span id="[2]up"><sup><a href="#%5B2%5Ddown">[2]</a></sup></span>按钮</td>
+</tr>
+<tr>
+<td>2</td>
+<td>我是为你好</td>
+<td>crack_0.wav, cracks_1.wav, cracks_2.wav, cracks_3.wav, cracks_4.wav</td>
+<td>豫章书院</td>
+<td>-</td>
+<td>无视诱导面板持续喂食到60次</td>
+</tr>
+</tbody></table>
+<p>yuzhang_school.wav</p>
+<audio controls>
+  <source src="./audios/yuzhang_school.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/panels.png" alt="诱导面板"><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/ending1.png" alt="豫章书院结局"></p>
+<p>carck0.wav</p>
+<audio controls>
+  <source src="./audios/crack_0.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks1.wav</p>
+<audio controls>
+  <source src="./audios/cracks_1.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks2.wav</p>
+<audio controls>
+  <source src="./audios/cracks_2.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks3.wav</p>
+<audio controls>
+  <source src="./audios/cracks_3.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcks4.wav</p>
+<audio controls>
+  <source src="./audios/cracks_4.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<p>carcking.wav</p>
+<audio controls>
+  <source src="./audios/cracking.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<h4 id="转场"><a href="#转场" class="headerlink" title="转场"></a>转场</h4><span id="ce1-up">
+
+<ul>
+<li>转场出现时会经过淡出，同时等待4589<sup><a href="#ce1-down">↓</a></sup>毫秒后会淡入，它经常会出现在<strong>结局</strong>触发时。</span></li>
+</ul>
+<p><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/carcking.png" alt="胶囊开裂"></p>
+<h3 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h3><span id="ce1-down">
+
+<ul>
+<li><p><sup><a href="#ce1-up">↑</a></sup><strong>转场</strong>的持续时间为4589毫秒，1945年8月9日是全世界最热的一天，当天日本广岛上午11:02时的气温高达6000℃。</p>
+</span>
+</li>
+<li><p><strong>转场</strong>的图层优先级是1945。</p>
+</li>
+</ul>
+<h2 id="更改"><a href="#更改" class="headerlink" title="更改"></a>更改</h2><hr>
+<h3 id="游戏图标"><a href="#游戏图标" class="headerlink" title="游戏图标"></a>游戏图标</h3><ul>
+<li>图标由原来的Unity logo改为胶囊。</li>
+</ul>
+<p><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/unity-logo.png" alt="Unity logo（旧）"><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/capsule.png" alt="胶囊（新）"></p>
+<p><em>如果你看不见新图标是正常的，因为新图标是白色的，网页背景也是白色的，所以看不见。&#x3D;)</em></p>
+<h3 id="启动画面"><a href="#启动画面" class="headerlink" title="启动画面"></a>启动画面</h3><p><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/legacy-starting.gif" alt="旧启动画面"><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/new-starting.gif" alt="新启动画面"></p>
+<p><em>此处可能会有闪烁，原因很简单，俺也不到啊。O.O</em><br><em>gif动图的质量太差了，请见谅。（这句是AI生成的，请不要当真（生成的，请不要当真是AI生成的，请不要当真6，搁这儿套娃啊（儿是AI生成的）））</em></p>
+<h3 id="背景颜色"><a href="#背景颜色" class="headerlink" title="背景颜色"></a>背景颜色</h3><ul>
+<li>背景颜色由原来的蓝色改为黑色。</li>
+</ul>
+<p><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/blue.png" alt="蓝色（旧）"><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/black.png" alt="黑色（新）"></p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><span id="[1]down">1. <sup><a href="#%5B1%5Dup">↑</a></sup> <a href="https://zh.wikipedia.org/wiki/%E8%B1%AB%E7%AB%A0%E4%B9%A6%E9%99%A2%E4%BF%AE%E8%BA%AB%E6%95%99%E8%82%B2%E4%B8%93%E4%BF%AE%E5%AD%A6%E6%A0%A1">豫章书院修身教育专修学校</a></span></p>
+<p><span id="[2]down">1. <a href="#%5B2%5Dup">↑</a> 修正在代码中使用的ID是Amend，意为： 修改，修订；纠正，改正；改善（土壤）的结构（或肥力）；&lt;古&gt;修复；改过自新</span></p>
+<p><span id="end"></span><br><em>最后编辑：2024年5月21日 | 18点26分</em></p>
+]]></content>
+      <tags>
+        <tag>喂胶囊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>喂胶囊1.1-rc2</title>
+    <url>/p/2024/05/16/%E5%96%82%E8%83%B6%E5%9B%8A1-1-rc2/</url>
+    <content><![CDATA[<p><strong>1.1-rc2</strong>是喂胶囊1.1的第二个发布候选版本，发布于2024年5月16日，修复了3个漏洞。<br><a href="https://huang3333.sharepoint.com/sites/hk15/_layouts/15/download.aspx?UniqueId=b32c53ee-d261-4703-987c-e2f1d2b4bd8c&Translate=false&tempauth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfZGlzcGxheW5hbWUiOiJjbG91ZHJldmUiLCJhcHBpZCI6ImU1ZTkwYTE4LWFmOGItNDllZi05OTY0LTgxOGM2MjM4MTE2MCIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9odWFuZzMzMzMuc2hhcmVwb2ludC5jb21AYjdiZmZlNjAtNWIwMC00ZDllLTgzOGQtYzk2YjQ1ZTgyYjE4IiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDIyMGYwOGM3MkBsaXZlLmNvbSIsImNpZCI6Ilk2dGxMUnJJamsrT0tsZFREL3gvenc9PSIsImVuZHBvaW50dXJsIjoiY3BUbGg1SW53WkNGLzVPai9rbnArV0JyZDFqZk5WUkNKeXJVOGlzY0tOVT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEzMSIsImV4cCI6IjE3MTYyODk4NDAiLCJpcGFkZHIiOiIyMC4xOTAuMTQ0LjE2OSIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTcxNjI4NjI0MCIsInB1aWQiOiIxMDAzMjAwMjIwRjA4QzcyIiwic2NwIjoiYWxsZmlsZXMud3JpdGUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwic2l0ZWlkIjoiTkdSaFlUTm1aV0V0Wmpsak5DMDBNVEUyTFRsaE0yVXRaalF6WkRJek1UZGxNekV5IiwidGlkIjoiYjdiZmZlNjAtNWIwMC00ZDllLTgzOGQtYzk2YjQ1ZTgyYjE4IiwidHQiOiIyIiwidXBuIjoiaGsxQGh1YW5nMzMzMy5vbm1pY3Jvc29mdC5jb20iLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.Y0O79hP2kANzb6H4ajEU5Zm6Ux50U9ZRbpNVxycDKjo&ApiVersion=2.0">点此下载多系统版本</a></p>
+<h1 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h1><hr>
+<p><strong>上一个开发版本的漏洞</strong></p>
+<ul>
+<li><a href="https://sadepa28.github.io/p/2024/05/13/%E5%96%82%E8%83%B6%E5%9B%8A%E6%BC%8F%E6%B4%9E%E8%B7%9F%E8%B8%AA%E5%99%A8/#FC-1">FC-1</a> — 触发结局3时仍可以点击小刀重新触发结局3。</li>
+<li><a href="https://sadepa28.github.io/p/2024/05/13/%E5%96%82%E8%83%B6%E5%9B%8A%E6%BC%8F%E6%B4%9E%E8%B7%9F%E8%B8%AA%E5%99%A8/#FC-2">FC-2</a> — 当小刀出现时点击修正按钮后快速点击小刀会触发结局3，但是在点击修正按钮导致的结局1触发会导致结局标语变成豫章书院并播放结局1的音效。</li>
+<li><a href="https://sadepa28.github.io/p/2024/05/13/%E5%96%82%E8%83%B6%E5%9B%8A%E6%BC%8F%E6%B4%9E%E8%B7%9F%E8%B8%AA%E5%99%A8/#FC-3">FC-3</a> — 在小刀出现后点击诱导面板中的修正按钮触发结局1后小刀仍然存在。</li>
+</ul>
+<p><em>最后编辑：2024年5月21日 | 18点26分</em></p>
+]]></content>
+      <tags>
+        <tag>喂胶囊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>喂胶囊漏洞跟踪器</title>
+    <url>/p/2024/05/13/%E5%96%82%E8%83%B6%E5%9B%8A%E6%BC%8F%E6%B4%9E%E8%B7%9F%E8%B8%AA%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="如果您在玩喂胶囊时遇到了问题或漏洞请按照以下格式在评论区上报："><a href="#如果您在玩喂胶囊时遇到了问题或漏洞请按照以下格式在评论区上报：" class="headerlink" title="如果您在玩喂胶囊时遇到了问题或漏洞请按照以下格式在评论区上报："></a>如果您在玩喂胶囊时遇到了问题或漏洞请按照以下格式在评论区上报：</h1><p><em><strong>只有最新版本中出现的漏洞才会被受理，请确保您的游戏版本是最新的，或最新版本也存在该漏洞。</strong></em></p>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><ul>
+<li><em>请描述您遇到的问题。</em></li>
+</ul>
+<h1 id="版本信息"><a href="#版本信息" class="headerlink" title="版本信息"></a>版本信息</h1><ul>
+<li><em>您的游戏版本，例如：1.1-rc2_Windows_Intel_x64</em></li>
+</ul>
+<h1 id="系统信息"><a href="#系统信息" class="headerlink" title="系统信息"></a>系统信息</h1><ul>
+<li><em>请提供您的系统信息，如操作系统版本、浏览器版本、设备型号、配置等。</em></li>
+</ul>
+<h1 id="问题重现步骤"><a href="#问题重现步骤" class="headerlink" title="问题重现步骤"></a>问题重现步骤</h1><ul>
+<li><em>请描述如何重现该问题。</em></li>
+</ul>
+<h1 id="期望结果"><a href="#期望结果" class="headerlink" title="期望结果"></a>期望结果</h1><ul>
+<li><em>请描述您期望的结果。</em></li>
+</ul>
+<h1 id="实际结果"><a href="#实际结果" class="headerlink" title="实际结果"></a>实际结果</h1><ul>
+<li><em>请描述实际的结果。</em></li>
+</ul>
+<h1 id="补充信息"><a href="#补充信息" class="headerlink" title="补充信息"></a>补充信息</h1><ul>
+<li><em>请提供其他有助于问题定位的信息。</em></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 问题描述</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*请描述您遇到的问题。*</span></span><br><span class="line"></span><br><span class="line"><span class="section"># 版本信息</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*您的游戏是运行在什么系统的版本？*</span></span><br><span class="line"></span><br><span class="line"><span class="section"># 系统信息</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*请提供您的系统信息，如操作系统版本、浏览器版本、设备型号、配置等。*</span></span><br><span class="line"></span><br><span class="line"><span class="section"># 问题重现步骤</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*请描述如何重现该问题。*</span></span><br><span class="line"></span><br><span class="line"><span class="section"># 期望结果</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*请描述您期望的结果。*</span></span><br><span class="line"></span><br><span class="line"><span class="section"># 实际结果</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*请描述实际的结果。*</span></span><br><span class="line"></span><br><span class="line"><span class="section"># 补充信息</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="emphasis">*请提供其他有助于问题定位的信息。*</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="目前已确认的漏洞："><a href="#目前已确认的漏洞：" class="headerlink" title="目前已确认的漏洞："></a>目前已确认的漏洞：</h1><h1 id="FC-1"><a href="#FC-1" class="headerlink" title="FC-1"></a>FC-1</h1><ul>
+<li>触发结局3时仍可以点击小刀重新触发结局3。</li>
+</ul>
+<p>上报者——浮士德</p>
+<h1 id="FC-2"><a href="#FC-2" class="headerlink" title="FC-2"></a>FC-2</h1><ul>
+<li>当小刀出现时点击修正按钮后快速点击小刀会触发结局3，但是在点击修正按钮导致的结局1触发会导致结局标语变成豫章书院并播放结局1的音效。</li>
+</ul>
+<p>上报者——浮士德</p>
+<h1 id="FC-3"><a href="#FC-3" class="headerlink" title="FC-3"></a>FC-3</h1><ul>
+<li>在小刀出现后点击诱导面板中的修正按钮触发结局1后小刀仍然存在。</li>
+</ul>
+<p><em>最后编辑：2024年5月21日 | 20点53分</em></p>
+]]></content>
+      <tags>
+        <tag>漏洞跟踪器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小天才动态效验码生成器</title>
+    <url>/p/2024/04/29/%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%8A%A8%E6%80%81%E6%95%88%E9%AA%8C%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/</url>
+    <content><![CDATA[<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>小天才动态效验码生成器</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="generator" id="newADBGenerator">
+            <h2>新ADB调试开关动态效验码</h2>
+            <label for="newADBInput"></label><input type="text" id="newADBInput" placeholder="输入">
+            <label for="newADBOutput"></label><input type="text" id="newADBOutput" placeholder="输出">
+            <button onclick="generateNewADBCode()">生成</button>
+        </div>
+        <div class="generator clear" id="oldADBGenerator">
+            <h2>旧ADB调试开关动态效验码</h2>
+            <label for="oldADBInput"></label><input type="text" id="oldADBInput" placeholder="输入">
+            <label for="oldADBOutput"></label><input type="text" id="oldADBOutput" placeholder="输出">
+            <button onclick="generateOldADBCode()">生成</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="generator" id="newSelfTestGenerator">
+            <h2>新自检模式动态效验码</h2>
+            <label for="newSelfTestInput"></label><input type="text" id="newSelfTestInput" placeholder="输入">
+            <label for="newSelfTestOutput"></label><input type="text" id="newSelfTestOutput" placeholder="输出">
+            <button onclick="generateNewSelfTestCode()">生成</button>
+        </div>
+        <div class="generator" id="oldSelfTestGenerator">
+            <h2>旧自检模式动态效验码</h2>
+            <label for="oldSelfTestInput"></label><input type="text" id="oldSelfTestInput" placeholder="输入">
+            <label for="oldSelfTestOutput"></label><input type="text" id="oldSelfTestOutput" placeholder="输出">
+            <button onclick="generateOldSelfTestCode()">生成</button>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
+
+<p><em>最后编辑：2024年5月14日 | 11点11分</em></p>
+]]></content>
+      <tags>
+        <tag>小天才破解</tag>
+      </tags>
+  </entry>
+</search>
