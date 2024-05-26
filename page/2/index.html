@@ -125,11 +125,19 @@
   
   
   
+
 <div class="notice" style="margin-top:50px">
     <i class="ri-heart-fill"></i>
-    <div class="notice-content">今天是我叫二白的仓鼠的忌日</div>
+    <div class="notice-content" id="broad"></div>
 </div>
-
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
 
 <style>
     .notice {
@@ -164,8 +172,8 @@
     
     
     <article
-  id="categories-categories"
-  class="article article-type-categories"
+  id="friends-friends"
+  class="article article-type-friends"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
@@ -175,8 +183,8 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/p/1980/02/01/categories/"
-    >分类</a> 
+  <a class="article-title" href="/p/1980/02/01/friends/"
+    >友链</a> 
 </h2>
  
 
@@ -184,7 +192,7 @@
     </header>
      
     <div class="article-meta">
-      <a href="/p/1980/02/01/categories/" class="article-date">
+      <a href="/p/1980/02/01/friends/" class="article-date">
   <time datetime="1980-01-31T16:00:00.000Z" itemprop="datePublished">1980-02-01</time>
 </a>    
     </div>
