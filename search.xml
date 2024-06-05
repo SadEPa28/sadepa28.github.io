@@ -311,10 +311,10 @@
     </div>
     <div class="row">
         <div class="generator" id="newSelfTestGenerator">
-            <h2>新自检模式动态效验码</h2>
+            <h2>新自检模式动态效验码（暂不可用）</h2>
             <label for="newSelfTestInput"></label><input type="text" id="newSelfTestInput" placeholder="输入">
             <label for="newSelfTestOutput"></label><input type="text" id="newSelfTestOutput" placeholder="输出">
-            <button onclick="generateNewSelfTestCode()">生成</button>
+            <button onclick="generateNewSelfTestCodee()">生成</button>
         </div>
         <div class="generator" id="oldSelfTestGenerator">
             <h2>旧自检模式动态效验码</h2>
@@ -328,7 +328,7 @@
 </body>
 </html>
 
-<p><em>最后编辑：2024年5月14日 | 11点11分</em></p>
+<p><em>最后编辑：2024年6月5日 | 14点42分</em></p>
 ]]></content>
       <tags>
         <tag>小天才破解</tag>
