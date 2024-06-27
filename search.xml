@@ -79,18 +79,9 @@
   <entry>
     <title>喂胶囊1.1-pre1</title>
     <url>/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/</url>
-    <content><![CDATA[<script>
-    function copyToClipboard() {
-        var textToCopy = "The text you want to copy to the clipboard";
-        navigator.clipboard.writeText(textToCopy).then(function() {
-            console.log('Text successfully copied to clipboard');
-        }, function(err) {
-            console.error('Unable to copy text to clipboard', err);
-        });
-    }
-</script>
-
-
+    <content><![CDATA[<blockquote>
+<h1 id="🛑"><a href="#🛑" class="headerlink" title="🛑"></a>🛑</h1><h3 id="此页面描述的是已经正式终止支持的游戏。"><a href="#此页面描述的是已经正式终止支持的游戏。" class="headerlink" title="此页面描述的是已经正式终止支持的游戏。"></a>此页面描述的是已经正式终止支持的游戏。</h3><p>受共耀之梦开发的影响，此游戏已停止运营</p>
+</blockquote>
 <p><strong>1.1-pre1</strong>是喂胶囊1.1的唯一一个预发布版，发布于2024年4月1日，增加了两个结局，更改了游戏机制、背景颜色、游戏图标和启动画面。<br><a href="https://cloud.189.cn/t/JVBzAbbqqMri">点此下载多系统版本</a>（访问码：n5an）</p>
 <table>
 <thead>
@@ -225,7 +216,7 @@
 <p><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/blue.png" alt="蓝色（旧）"><br><img src="/p/2024/04/07/%E5%96%82%E8%83%B6%E5%9B%8A1.1-pre1/images/black.png" alt="黑色（新）"></p>
 <h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><span id="[1]down">1. <sup><a href="#%5B1%5Dup">↑</a></sup> <a href="https://zh.wikipedia.org/wiki/%E8%B1%AB%E7%AB%A0%E4%B9%A6%E9%99%A2%E4%BF%AE%E8%BA%AB%E6%95%99%E8%82%B2%E4%B8%93%E4%BF%AE%E5%AD%A6%E6%A0%A1">豫章书院修身教育专修学校</a></span></p>
 <p><span id="[2]down">1. <a href="#%5B2%5Dup">↑</a> 修正在代码中使用的ID是Amend，意为： 修改，修订；纠正，改正；改善（土壤）的结构（或肥力）；&lt;古&gt;修复；改过自新</span></p>
-<p><em>最后编辑：2024年6月28日 | 00点56分</em></p>
+<p><em>最后编辑：2024年6月28日 | 01点25分</em></p>
 <p><span id="end"></span></p>
 ]]></content>
       <tags>
@@ -287,7 +278,10 @@
   <entry>
     <title>小天才动态效验码生成器</title>
     <url>/p/2024/04/29/%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%8A%A8%E6%80%81%E6%95%88%E9%AA%8C%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/</url>
-    <content><![CDATA[<!DOCTYPE html>
+    <content><![CDATA[<blockquote>
+<h1 id="🛑"><a href="#🛑" class="headerlink" title="🛑"></a>🛑</h1><h3 id="此页面的工具已经正式终止支持。"><a href="#此页面的工具已经正式终止支持。" class="headerlink" title="此页面的工具已经正式终止支持。"></a>此页面的工具已经正式终止支持。</h3><p>已知的最后可用版本为 v2.6.0。</p>
+</blockquote>
+<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -330,7 +324,7 @@
 </body>
 </html>
 
-<p><em>最后编辑：2024年6月5日 | 14点42分</em></p>
+<p><em>最后编辑：2024年6月28日 | 01点21分</em></p>
 ]]></content>
       <tags>
         <tag>小天才破解</tag>
@@ -339,7 +333,10 @@
   <entry>
     <title>喂胶囊1.1-rc1</title>
     <url>/p/2024/05/11/%E5%96%82%E8%83%B6%E5%9B%8A1.1-rc1/</url>
-    <content><![CDATA[<p><strong>1.1-rc1</strong>是喂胶囊1.1的首个发布候选版本，发布于2024年5月13日，增加了一个结局，更改了游戏机制、启动画面。<br><a href="https://cloud.189.cn/t/yYbye2aqeime">点此下载多系统版本</a>（访问码：5fq3）</p>
+    <content><![CDATA[<blockquote>
+<h1 id="🛑"><a href="#🛑" class="headerlink" title="🛑"></a>🛑</h1><h3 id="此页面描述的是已经正式终止支持的游戏。"><a href="#此页面描述的是已经正式终止支持的游戏。" class="headerlink" title="此页面描述的是已经正式终止支持的游戏。"></a>此页面描述的是已经正式终止支持的游戏。</h3><p>受共耀之梦开发的影响，此游戏已停止运营</p>
+</blockquote>
+<p><strong>1.1-rc1</strong>是喂胶囊1.1的首个发布候选版本，发布于2024年5月13日，增加了一个结局，更改了游戏机制、启动画面。<br><a href="https://cloud.189.cn/t/yYbye2aqeime">点此下载多系统版本</a>（访问码：5fq3）</p>
 <table>
 <thead>
 <tr>
@@ -457,7 +454,7 @@
   Your browser does not support the audio element.
 </audio>
 
-<p><em>最后编辑：2024年6月28日 | 00点56分</em></p>
+<p><em>最后编辑：2024年6月28日 | 01点26分</em></p>
 <p><span id="end"></span></p>
 ]]></content>
       <tags>
@@ -467,7 +464,10 @@
   <entry>
     <title>喂胶囊1.1-rc2</title>
     <url>/p/2024/05/16/%E5%96%82%E8%83%B6%E5%9B%8A1.1-rc2/</url>
-    <content><![CDATA[<p><strong>1.1-rc2</strong>是喂胶囊1.1的第二个发布候选版本，发布于2024年5月16日，修复了3个漏洞。<br><a href="https://cloud.189.cn/t/yYbye2aqeime">点此下载多系统版本</a>（访问码：5fq3）</p>
+    <content><![CDATA[<blockquote>
+<h1 id="🛑"><a href="#🛑" class="headerlink" title="🛑"></a>🛑</h1><h3 id="此页面描述的是已经正式终止支持的游戏。"><a href="#此页面描述的是已经正式终止支持的游戏。" class="headerlink" title="此页面描述的是已经正式终止支持的游戏。"></a>此页面描述的是已经正式终止支持的游戏。</h3><p>受共耀之梦开发的影响，此游戏已停止运营</p>
+</blockquote>
+<p><strong>1.1-rc2</strong>是喂胶囊1.1的第二个发布候选版本，发布于2024年5月16日，修复了3个漏洞。<br><a href="https://cloud.189.cn/t/yYbye2aqeime">点此下载多系统版本</a>（访问码：5fq3）</p>
 <table>
 <thead>
 <tr>
@@ -507,7 +507,7 @@
 <li><a href="https://sadepa28.github.io/p/2024/05/13/%E5%96%82%E8%83%B6%E5%9B%8A%E6%BC%8F%E6%B4%9E%E8%B7%9F%E8%B8%AA%E5%99%A8/#FC-2">FC-2</a> — 当小刀出现时点击修正按钮后快速点击小刀会触发结局3，但是在点击修正按钮导致的结局1触发会导致结局标语变成豫章书院并播放结局1的音效。</li>
 <li><a href="https://sadepa28.github.io/p/2024/05/13/%E5%96%82%E8%83%B6%E5%9B%8A%E6%BC%8F%E6%B4%9E%E8%B7%9F%E8%B8%AA%E5%99%A8/#FC-3">FC-3</a> — 在小刀出现后点击诱导面板中的修正按钮触发结局1后小刀仍然存在。</li>
 </ul>
-<p><em>最后编辑：2024年6月27日 | 22点49分</em></p>
+<p><em>最后编辑：2024年6月28日 | 01点25分</em></p>
 <p><span id="end"></span></p>
 ]]></content>
       <tags>
@@ -518,11 +518,10 @@
     <title>共耀之梦rd-20240529</title>
     <url>/p/2024/06/05/%E5%85%B1%E8%80%80%E4%B9%8B%E6%A2%A6rd-20240529/</url>
     <content><![CDATA[<blockquote>
-<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><p>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup><br>请帮助我们扩充或改进它。</p>
+<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><h3 id="该页面的编辑正在进行中。-讨论"><a href="#该页面的编辑正在进行中。-讨论" class="headerlink" title="该页面的编辑正在进行中。 讨论"></a>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup></h3><p>请帮助我们扩充或改进它。</p>
 </blockquote>
 <blockquote>
-<h1 id="🥸"><a href="#🥸" class="headerlink" title="🥸"></a>🥸</h1><p>此条目记述的内容是一个愚人节玩笑。</p>
-<p>实际上rd-20240529并不在共耀之梦的开发计划内。</p>
+<h1 id="🥸"><a href="#🥸" class="headerlink" title="🥸"></a>🥸</h1><h3 id="此条目记述的内容是一个愚人节玩笑。"><a href="#此条目记述的内容是一个愚人节玩笑。" class="headerlink" title="此条目记述的内容是一个愚人节玩笑。"></a>此条目记述的内容是一个愚人节玩笑。</h3><p>实际上rd-20240529并不在共耀之梦的开发计划内。</p>
 </blockquote>
 <blockquote>
 <p><img src="/images/SadEPa.png" alt="SadEPa"></p>
@@ -574,7 +573,7 @@
 <p>视频由SadEPa录制于2024年5月29日。</p>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1rr421w7YL" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-<p><em>最后编辑：2024年6月27日 | 23点08分</em></p>
+<p><em>最后编辑：2024年6月28日 | 01点20分</em></p>
 <p><span id="end"></span></p>
 ]]></content>
       <tags>
@@ -585,7 +584,7 @@
     <title>共耀之梦rd-20240626</title>
     <url>/p/2024/06/27/%E5%85%B1%E8%80%80%E4%B9%8B%E6%A2%A6rd-20240626/</url>
     <content><![CDATA[<blockquote>
-<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><p>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup><br>请帮助我们扩充或改进它。</p>
+<h1 id="🖊"><a href="#🖊" class="headerlink" title="🖊"></a>🖊</h1><h3 id="该页面的编辑正在进行中。-讨论"><a href="#该页面的编辑正在进行中。-讨论" class="headerlink" title="该页面的编辑正在进行中。 讨论"></a>该页面的编辑正在进行中。 <sup><a href="#end">讨论</a></sup></h3><p>请帮助我们扩充或改进它。</p>
 </blockquote>
 <p><strong>rd-20240529</strong>是于2024年6月27日制作完成的共耀之梦的第二个版本。</p>
 <p>该版本从2024年6月26日开始开发，持续到27日。被加入的特性可于2024年6月27日发布的 【共耀之梦】rd-20240626完成构建 视频中看到。</p>
@@ -634,7 +633,7 @@
 <h3 id="重载世界"><a href="#重载世界" class="headerlink" title="重载世界"></a>重载世界</h3><ul>
 <li>玩家可以按下<code>R</code>键重载世界，玩家的位置会被传送到世界出生点。</li>
 </ul>
-<p><em>最后编辑：2024年6月27日 | 22点55分</em></p>
+<p><em>最后编辑：2024年6月28日 | 01点26分</em></p>
 <p><span id="end"></span></p>
 ]]></content>
       <tags>
